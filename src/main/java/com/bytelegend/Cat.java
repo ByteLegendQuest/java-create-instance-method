@@ -13,6 +13,7 @@ public class Cat {
         white.sayName();
     }
 
-    // Print my `name` to standard output
-    public void sayName() {}
+    public void sayName() {
+        System.out.print(name);
+    }
 }
