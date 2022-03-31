@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Cat {
-    public String static name;
+    public String name;
 
     public static void main(String[] args) {
         Cat black = new Cat();
@@ -14,7 +14,7 @@ public class Cat {
     }
 
     // Print my `name` to standard output
-    public void sayName() {
+    public void sayName(String name) {
 
         System.out.println(name);
     }
