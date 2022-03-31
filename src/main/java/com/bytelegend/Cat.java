@@ -6,16 +6,15 @@ public class Cat {
     public static void main(String[] args) {
         Cat black = new Cat();
         black.name = "Black";
-        black.sayName(name);
+        black.sayName();
 
         Cat white = new Cat();
         white.name = "White";
-        white.sayName(name);
+        white.sayName();
     }
 
     // Print my `name` to standard output
-    public void sayName(String name) {
-
+    public void sayName() {
         System.out.println(name);
     }
 }
