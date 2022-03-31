@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Cat {
-    public String name;
+    public String static name;
 
     public static void main(String[] args) {
         Cat black = new Cat();
