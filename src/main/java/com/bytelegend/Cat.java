@@ -15,6 +15,6 @@ public class Cat {
 
     // Print my `name` to standard output
     public void sayName() {
-        system.out.println(name);
+        system.out.println(this.name);
     }
 }
