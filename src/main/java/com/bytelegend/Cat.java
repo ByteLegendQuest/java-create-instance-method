@@ -9,7 +9,7 @@ public class Cat {
         black.sayName();
 
         Cat white = new Cat();
-        white.name = "White";
+        white.name = "666";
         white.sayName();
     }
 
