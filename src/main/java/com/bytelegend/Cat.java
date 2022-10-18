@@ -14,7 +14,5 @@ public class Cat {
     }
 
     // Print my `name` to standard output
-    public void sayName() {
-         System.out.println("My name is "+name+" cat");
-    }
+    public void sayName() {}
 }
