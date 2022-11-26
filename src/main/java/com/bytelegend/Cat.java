@@ -14,7 +14,7 @@ public class Cat {
     }
 
     // Print my `name` to standard output
-    public void sayName(String name) {
+    public void sayName() {
         System.out.println(name);
     }
 }
